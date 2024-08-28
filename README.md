@@ -4,11 +4,11 @@
 # AIM:
 To Develop a python program to Plot a time series data (Atmospheric_Composition_O2/Soil_Microbial_Activity).
 # ALGORITHM:
-1. Import the required packages like pandas and matplot
-2. Read the dataset using the pandas
-3. Aggregate Data: Group the data by the "year" column and sum the "value" column to get the total value for each year.
-4. Plot the data according to need and can be altered monthly, or yearly.
-5. Display the graph.
+1. Import libraries: Import pandas, numpy, and matplotlib for data processing and plotting.
+2. Load and prepare data: Read the dataset, convert the 'Date' column to datetime format, and sort the data by date.
+3. Set index: Set the 'Date' column as the index of the DataFrame.
+4. Plot the data: Plot 'Atmospheric_Composition_O2' over time using matplotlib.
+5. Display the plot: Show the graph with appropriate labels and title.
 # PROGRAM:
 
 ```
@@ -59,4 +59,5 @@ plt.show()
 
 
 # RESULT:
-This was created by the python code for plotting the time series of given data.
+A graph is generated showing the variation of 'Atmospheric_Composition_O2' over time.
+The plot provides a visual representation of how atmospheric oxygen composition changes over the recorded dates.
